@@ -1,0 +1,24 @@
+{
+  "name": "asin-scraper",
+  "version": "1.0.0",
+  "description": "It is a scraper that acquires price and shop information at Amazon from ASIN.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noracorn/asin-scraper.git"
+  },
+  "keywords": [
+    "amazon",
+    "scraper",
+    "asin"
+  ],
+  "author": "noracorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noracorn/asin-scraper/issues"
+  },
+  "homepage": "https://github.com/noracorn/asin-scraper#readme"
+}
