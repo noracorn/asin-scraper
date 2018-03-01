@@ -1,7 +1,9 @@
 const AsinScraper = require('../lib/asinScraper')
 const asinScraper = AsinScraper();
 
-asinScraper.getAsinInfo("B06WRPL9ZY", "ja").then(function(data){
+// Pattern to access once
+// １回ずつアクセスするパターン
+asinScraper.getAsinInfo("B01MDLKWCX", "ja").then(function(data){
     // We will issue 1 page of seller's information
     // 販売者の情報を1ページ出します
     console.log("---------getAsinInfo--------");
@@ -36,4 +38,16 @@ asinScraper.getAsinInfo("B06WRPL9ZY", "ja").then(function(data){
     }
     console.log("-----------------------------");
 
+});
+
+// How to access plural in an array
+// 複数を配列に入れてアクセする方法
+var asinArray = ['B06WRPL9ZY', 'B01A0PVN5A', 'B071JGB2CV', '150670400X', 'B01MDLKWCX'];
+var scrapeArray = []
+asinArray.forEach(element => {
+    scrapeArray.push(asinScraper.getAsinInfo(element, "ja"))
+});
+
+Promise.all(scrapeArray).then(function(data) {
+    console.log(data);
 });
