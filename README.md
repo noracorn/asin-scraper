@@ -1,7 +1,7 @@
 # asin-scraper
 It is a scraper that acquires price and shop information at Amazon from ASIN.
 
-ASINからAmazon.comからデータを取得するスクリプトです。
+ASINからAmazon.comからデータを取得するスクリプトです。<br/>
 セラーのデータを取得し、最安値を取ったり、新品、中古の判定などができます。
 セラーのデータは、１ページ分取得します。
 それ以上あっても、取得しません。
