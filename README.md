@@ -1,25 +1,25 @@
 # asin-scraper
-It is a scraper that acquires price and shop information at Amazon from ASIN.
+It is a scraper that acquires price and shop information at Amazon from ASIN.<br/>
 
-getAsinInfo:
-ASINからセラーの価格情報などを取得します。
-最安値を探すのも簡単です。
-We will get price information etc of the seller from ASIN.
-It is easy to find the lowest price.
+getAsinInfo:<br/>
+ASINからセラーの価格情報などを取得します。<br/>
+最安値を探すのも簡単です。<br/>
+We will get price information etc of the seller from ASIN.<br/>
+It is easy to find the lowest price.<br/>
 
-getSellerInfo:
-セラーIDからセラーの持つ商品のASINを抜き出します。
-現在は、１ページだけの取得です。
-改良できるか試行錯誤中です。
-From the seller ID, extract the ASIN of the product of the seller.
-Currently, it is acquisition of only one page.
-It is under trial and error whether it can be improved.
+getSellerInfo:<br/>
+セラーIDからセラーの持つ商品のASINを抜き出します。<br/>
+現在は、１ページだけの取得です。<br/>
+改良できるか試行錯誤中です。<br/>
+From the seller ID, extract the ASIN of the product of the seller.<br/>
+Currently, it is acquisition of only one page.<br/>
+It is under trial and error whether it can be improved.<br/>
 
-getAsinFromKeyword:
-キーワード検索して、ASINを取得します。
-ページ数を指定しての読み込みとなります。
-Search for keywords and get ASIN.
-It is reading with specifying the number of pages.
+getAsinFromKeyword:<br/>
+キーワード検索して、ASINを取得します。<br/>
+ページ数を指定しての読み込みとなります。<br/>
+Search for keywords and get ASIN.<br/>
+It is reading with specifying the number of pages.<br/>
 
-サンプルをごらんください
-Please see the sample
+サンプルをごらんください<br/>
+Please see the sample<br/>

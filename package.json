@@ -1,6 +1,6 @@
 {
   "name": "asin-scraper",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "It is a scraper that acquires price and shop information at Amazon from ASIN.",
   "main": "index.js",
   "scripts": {
