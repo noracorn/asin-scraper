@@ -1,22 +1,25 @@
 # asin-scraper
 It is a scraper that acquires price and shop information at Amazon from ASIN.
 
-ASINからAmazon.comからデータを取得するスクリプトです。<br/>
-セラーのデータを取得し、最安値を取ったり、新品、中古の判定などができます。<br/>
-セラーのデータは、１ページ分取得します。<br/>
-それ以上あっても、取得しません。<br/>
+getAsinInfo:
+ASINからセラーの価格情報などを取得します。
+最安値を探すのも簡単です。
+We will get price information etc of the seller from ASIN.
+It is easy to find the lowest price.
 
-A script to retrieve data from Amazon.com from ASIN.<br/>
-You can get the seller's data, take the lowest price, judge new or used.<br/>
-The seller's data is acquired for one page.<br/>
-Even if there is more than that, I will not get it.
+getSellerInfo:
+セラーIDからセラーの持つ商品のASINを抜き出します。
+現在は、１ページだけの取得です。
+改良できるか試行錯誤中です。
+From the seller ID, extract the ASIN of the product of the seller.
+Currently, it is acquisition of only one page.
+It is under trial and error whether it can be improved.
 
-これから追加していこうと思う機能は、以下になります。<br/>
-・販売者の方からASINを取得する機能<br/>
-・検索結果からASINを取得する機能<br/>
-・日本のAmazonでも同じ機能を用意する
+getAsinFromKeyword:
+キーワード検索して、ASINを取得します。
+ページ数を指定しての読み込みとなります。
+Search for keywords and get ASIN.
+It is reading with specifying the number of pages.
 
-The functions that I want to add in the future are as follows.<br/>
-· Function to acquire ASIN from seller<br/>
-· Function to acquire ASIN from search results<br/>
-· Prepare the same function in Japanese Amazon
+サンプルをごらんください
+Please see the sample
