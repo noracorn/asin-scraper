@@ -3,7 +3,10 @@ const asinScraper = AsinScraper();
 
 // Pattern to access once
 // １回ずつアクセスするパターン
-asinScraper.getAsinInfo("B01MDLKWCX", "ja").then(function(data){
+
+// The first argument is ASIN, the second argument is the market to scrape, the third argument is the language of the retrieved data
+// 第一引数がASIN、第二引数がスクレイピングするマーケット、第三引数が取得データの言語
+asinScraper.getAsinInfo("B01MDLKWCX", "us", "ja").then(function(data){
     // We will issue 1 page of seller's information
     // 販売者の情報を1ページ出します
     console.log("---------getAsinInfo--------");
@@ -45,7 +48,7 @@ asinScraper.getAsinInfo("B01MDLKWCX", "ja").then(function(data){
 var asinArray = ['B06WRPL9ZY', 'B01A0PVN5A', 'B071JGB2CV', '150670400X', 'B01MDLKWCX'];
 var scrapeArray = []
 asinArray.forEach(element => {
-    scrapeArray.push(asinScraper.getAsinInfo(element, "ja"))
+    scrapeArray.push(asinScraper.getAsinInfo(element, "us", "ja"))
 });
 
 Promise.all(scrapeArray).then(function(data) {
