@@ -1,6 +1,6 @@
 {
   "name": "asin-scraper",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "It is a scraper that acquires price and shop information at Amazon from ASIN.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/noracorn/asin-scraper#readme",
   "dependencies": {
     "npm": "^5.7.1",
-    "osmosis": "^1.1.6"
+    "osmosis": "^1.1.8"
   }
 }

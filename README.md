@@ -9,11 +9,11 @@ It is easy to find the lowest price.<br/>
 
 getSellerInfo:<br/>
 セラーIDからセラーの持つ商品のASINを抜き出します。<br/>
-現在は、１ページだけの取得です。<br/>
-改良できるか試行錯誤中です。<br/>
+ページングができるようになりました。<br/>
+たくさんのIDを取得できます<br/>
 From the seller ID, extract the ASIN of the product of the seller.<br/>
-Currently, it is acquisition of only one page.<br/>
-It is under trial and error whether it can be improved.<br/>
+Paging is now available.<br/>
+You can get lots of IDs<br/>
 
 getAsinFromKeyword:<br/>
 キーワード検索して、ASINを取得します。<br/>
